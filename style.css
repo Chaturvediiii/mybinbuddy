@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+body{
+  background-color: #e6e3d4;
+}
+
+.btn li{
+  
+}
+
+.btn a{
+  text-decoration: none;
+}
+
+/* Our working process start  */
+.work-container {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+
+}
+
+.work-card {
+  width: 33.3%;
+  /* background-color: #e6e3d4; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 2.5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+}
+
+.work-img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: #1d3f39;
+  /* padding: 1rem auto; */
+  margin-bottom: 1rem;
+
+}
+
+.work-img:hover{
+
+}
+
+.work-img i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  margin: 2.25rem 1.75rem;
+}
+
+.work-head h4 {
+  font-size: 1rem;
+}
+
+.work-para p {
+  font-size: 0.75rem;
+  text-align: center;
+}
+/* Our working process end */
+
+@media (max-width: 768px) {
+  .work-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-card {
+    width: 100%;
+  }
+}
+
+/* chatbot */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+  .chat-message {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  .message-text {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  input[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: lightblue;
+    color: white;
+  }
